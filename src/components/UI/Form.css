@@ -1,5 +1,6 @@
 
 .input {
+  width: 100%;
   padding: 15px 7px 15px 15px;
   font-size: 16px;
   border-radius: 10px;
@@ -8,8 +9,7 @@
 .input-holder{
   position: relative;
   display: flex;
-  flex-direction: column;
-  margin: 10px 0;
+  margin: 10px 0 20px;
 }
 .label {
   color: #393f44;
@@ -32,8 +32,5 @@
 
 form {
   max-width: 450px;
-  display: flex;
-  flex-direction: column;
-  
 }
 

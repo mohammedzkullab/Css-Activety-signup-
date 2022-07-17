@@ -14,7 +14,6 @@ const LeftCol = () => {
           lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
           lorem ipsumlorem 
         </p>
-        <p className="logo-p"></p>
         <img src={Illustrate} alt="illustrate" className="illustrate" />
       </Container>
     </Column>

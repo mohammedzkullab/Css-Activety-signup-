@@ -7,11 +7,11 @@ const Form = () => {
   return (
     <>
       <form>
-        <label htmlFor="" className="label">
+        <label htmlFor="em" className="label">
           E-mail
         </label>
         <div className="input-holder">
-          <input type="email" className="input" placeholder="name@mail.com" />
+          <input type="email" className="input" id="em" placeholder="name@mail.com" />
           <span className="icon at">@</span>
         </div>
         <label htmlFor="" className="label">
