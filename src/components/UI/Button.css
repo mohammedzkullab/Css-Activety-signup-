@@ -1,0 +1,29 @@
+.submit {
+  background-color: #397ef7;
+  color: #fff;
+  border: none;
+}
+.sec-login {
+  background-color: transparent;
+  border: 1px solid rgb(153, 153, 153, 0.2);
+  color: #9094a4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google{
+    margin-right: 15px;
+    font-size: 24px;
+}
+.login-btn {
+  padding: 15px 7px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: none;
+}
+.btn {
+  margin: 10px 0;
+}

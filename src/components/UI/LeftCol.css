@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "SK Reykjavik Rounded";
+  src: url("//db.onlinewebfonts.com/t/16e715573b2b3072037cf4ab26fc8bb8.eot");
+  src: url("//db.onlinewebfonts.com/t/16e715573b2b3072037cf4ab26fc8bb8.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/16e715573b2b3072037cf4ab26fc8bb8.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/16e715573b2b3072037cf4ab26fc8bb8.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/16e715573b2b3072037cf4ab26fc8bb8.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/16e715573b2b3072037cf4ab26fc8bb8.svg#SK Reykjavik Rounded")
+      format("svg");
+}
+
+.logo {
+  font-family: 'SK Reykjavik Rounded', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  pointer-events: none;
+  color: #397ef7;
+}
+.logo-p {
+  color: rgb(153, 153, 153);
+  word-wrap: break-word;
+}
+.illustrate {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
