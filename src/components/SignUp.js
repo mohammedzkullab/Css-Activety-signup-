@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Container from "./Container/Container";
 import Select from "./Select/Select";
-import Illustrate from "../../undraw_team_up.svg";
+import Illustrate from "../undraw_team_up.svg";
 import Form from "./Form/Form";
 import "./SignUp.css";
 const SignUp = () => {
