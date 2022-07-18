@@ -1,7 +1,8 @@
-import "./Form.css";
+import Input from "../Input/Input";
 import { BiLockOpenAlt } from "react-icons/bi";
-import { FcGoogle } from "react-icons/fc";
-import Button from "./Button";
+import { FaGoogle } from "react-icons/fa";
+import Button from "../Button/Button";
+import "./Form.css";
 
 const Form = () => {
   return (
@@ -11,16 +12,16 @@ const Form = () => {
           E-mail
         </label>
         <div className="input-holder">
-          <input type="email" className="input" id="em" placeholder="name@mail.com" />
+          <Input type="email" id="em" placeholder="name@mail.com" />
           <span className="icon at">@</span>
         </div>
-        <label htmlFor="" className="label">
+        <label htmlFor="pass" className="label">
           Password
         </label>
         <div className="input-holder">
-          <input
-            className="input"
+          <Input
             type="password"
+            id="pass"
             placeholder="6+ characters, 1 Capital letter"
           />
           <BiLockOpenAlt className="icon" />
@@ -30,7 +31,7 @@ const Form = () => {
           Create an account
         </Button>
         <Button className="btn login-btn sec-login" type="button">
-          <FcGoogle className="google" /> Sign up with Google
+          <FaGoogle className="google" /> Sign up with Google
         </Button>
       </form>
     </>

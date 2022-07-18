@@ -1,15 +1,10 @@
-import Row from "./components/layout/Row";
-import LeftCol from "./components/UI/LeftCol";
-import RightCol from "./components/UI/RightCol";
 import "./App.css";
+import SignUp from "./components/UI/SignUp";
 
 function App() {
   return (
     <div className="App">
-      <Row>
-        <LeftCol />
-        <RightCol />
-      </Row>
+      <SignUp />
     </div>
   );
 }

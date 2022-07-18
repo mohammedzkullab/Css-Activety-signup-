@@ -13,8 +13,28 @@
       format("svg");
 }
 
+/* General Sytle */
+
+a {
+  text-decoration: none;
+  color: #397ef7;
+}
+.gray-color {
+  color: rgb(153, 153, 153);
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+/* Style for the left side of sign up page */
+
+.left-col {
+  background: rgba(0, 108, 255, 0.1);
+}
 .logo {
-  font-family: 'SK Reykjavik Rounded', sans-serif;
+  font-family: "SK Reykjavik Rounded", sans-serif;
   font-size: 48px;
   font-weight: bold;
   margin: 0;
@@ -27,4 +47,21 @@
 }
 .illustrate {
   margin-top: 90px;
+}
+
+/* Style for the Right side of sign up page */
+
+.form-head {
+  padding-top: 60px;
+}
+.form-head h1 {
+  color: #373e53;
+}
+.cont {
+  margin: auto;
+}
+.small {
+  margin-top: 10%;
+  font-size: 12px;
+  font-weight: 400;
 }
